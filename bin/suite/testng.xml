@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="regression_suite" verbose="10" parallel="tests">
+
+	<!-- <test name="SearchFunctionality">
+	   <parameter name="browser" value="firefox"/>
+	   <classes>
+	      <class name="com.automation.tests.AmazonSearchFunctionalityTest"/>
+	   </classes>
+	</test> -->
+	
+	<test name="AddItemToCart">
+	   <parameter name="browser" value="chrome"/>
+	   <classes>
+	      <class name="com.automation.tests.AddItemToBagTest"/>
+	   </classes>
+	</test>
+	
+</suite>

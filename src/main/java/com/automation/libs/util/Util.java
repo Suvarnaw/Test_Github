@@ -7,7 +7,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class Util {
 	
-	public static int MAX_TIMEOUT = 30;
+	public static int MAX_TIMEOUT = 60;
 	
 	public static WebDriverWait wait(WebDriver driver){
 		WebDriverWait standardWait = new WebDriverWait(driver, MAX_TIMEOUT); 

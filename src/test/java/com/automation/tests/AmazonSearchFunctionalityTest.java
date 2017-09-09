@@ -8,7 +8,7 @@ import com.automation.libs.page.HomePage;
 import com.automation.libs.page.SearchResultsPage;
 
 public class AmazonSearchFunctionalityTest extends TestCaseInitializer{
-	//this is my first Git Test
+	
 	@BeforeTest
 	public void setTestName(){
 		testCaseName = "Search Functionality";
